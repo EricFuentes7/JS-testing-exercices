@@ -17,3 +17,12 @@ VARIABLE_BOTON.addEventListener("click", function() {
 });
 
 Esto lo que hace es que cuando se activa la funcion "click" en la variable del botón, se cambia el texto.
+
+Muy bien todo pero... Lo que suele importar más es la modificación de estilos.
+Por eso, para cambiar estilos lo que haremos será usar:
+ELEMENTO.style.ESTILO = VALOR;
+
+Por ejemplo:
+ELEMENTO.style.display = "none";
+
+Esto lo que hace es hacer invisible el elemento.
