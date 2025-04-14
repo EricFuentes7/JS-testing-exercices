@@ -1,0 +1,19 @@
+Para cargar un ID (elemento) del HTML hay que marcar un ID en la etiqueta y luego en el JS usar:
+document.getElementById("NOMBRE_ID");
+
+se puede almacenar en un string (let), como:
+let VARIABLE = document.getElementById("NOMBRE_ID");
+
+Luego, despues de haber declarado una variable como el elemento que es, podriamos por ejemplo, cambiarle el texto:
+VARIABLE.innerHTML = "TEXTO";
+
+Eso lo que hace es cambiar el texto del que tenía a TEXTO.
+
+Pero... Para que sirve que se cambie automáticamente? Pues para que cada X tiempo cambie, por ejemplo.
+También se puede hacer que al hacer una accion cambie, como:
+
+VARIABLE_BOTON.addEventListener("click", function() {
+    VARIABLE.innerHTML = "TEXTO";
+});
+
+Esto lo que hace es que cuando se activa la funcion "click" en la variable del botón, se cambia el texto.
