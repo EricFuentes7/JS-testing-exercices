@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://i.giphy.com/ln7z2eWriiQAllfVcn.webp" alt="JavaScript Sricker Animation" width: 500px>
+  <img src="https://i.giphy.com/ln7z2eWriiQAllfVcn.webp" alt="JavaScript Sricker Animation" width="500px">
 </p>
 
 <h1 align="center">Proyectos JS - Frontend</h1>
