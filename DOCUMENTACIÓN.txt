@@ -26,3 +26,20 @@ Por ejemplo:
 ELEMENTO.style.display = "none";
 
 Esto lo que hace es hacer invisible el elemento.
+
+Ahora otra cosa important que hay que saber es el como leer entradas, por ejemplo de un input text.
+Por ejemplo, queremos leer la entrada de un input y escribir un mensaje con esa, lo que podríamos hacer es crear una variable con el valor ingresado:
+
+let ENTRADA = VAR_INPUT.value;
+
+Esto lo agregariamos dentro del:
+
+VARIABLE_BOTON.addEventListener("click", function() {
+});
+
+y hariamos que si el value !== "" (no está vacio), se muestre un texto, si no, no.
+Como por ejemplo un <p>:
+
+VAR_PARAGRAFO.textContent = "TEXTO"
+
+Que es para modificar el texto de un paragrafo.
