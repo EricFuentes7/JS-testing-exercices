@@ -43,3 +43,13 @@ Como por ejemplo un <p>:
 VAR_PARAGRAFO.textContent = "TEXTO"
 
 Que es para modificar el texto de un paragrafo.
+
+En vez de cambiar el estil ode un elemento, que es algo sucio, lo que podemos hacer es asignarle una clase con ese estilo.
+Eso lo haremos con:
+ELEMENTO.classList.add("CLASE");
+ELEMENTO.classList.remove("CLASE");
+
+Esos dos son para añadir y para eliminar clases de un elemento.
+
+Podemos hacer que se vaya cambiando (si está con la clase se quite y si no se ponga) automáticamente con:
+ELEMENTO.classList.toggle("CLASE");
