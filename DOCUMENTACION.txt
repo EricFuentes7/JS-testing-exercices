@@ -53,3 +53,25 @@ Esos dos son para añadir y para eliminar clases de un elemento.
 
 Podemos hacer que se vaya cambiando (si está con la clase se quite y si no se ponga) automáticamente con:
 ELEMENTO.classList.toggle("CLASE");
+
+Cuando leemos el value de un input, a veces tiene espacios sin querer.
+Para quitarlos usamos:
+
+.value.trim()
+
+Eso elimina espacios al principio y al final.
+Los inputs siempre dan texto, aunque pongas un número.
+Para convertirlo a número usamos:
+
+.parseInt(VALOR)
+
+Si alguien pone letras en vez de número, parseInt da NaN (Not a Number).
+Para saber si es inválido, usamos:
+
+.isNaN(VARIABLE)
+
+Si da true, no es un número.
+Si queremos parar la función y que no siga, usamos:
+return;
+
+Por ejemplo, usamos primero el trim para el valor, luego lo convetimos con .parseInt(VALOR) y para finalizar hacemos un if de si es NaN

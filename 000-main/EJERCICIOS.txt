@@ -2,4 +2,5 @@
 002 - Cambio de texto de etiqueta con botón
 003 - Cambio de estilo con botón (abrir y cerrar)
 004 - Leer entrada de Input
-005 - Cambio de estilo con clases.
+005 - Cambio de estilo con clases
+006 - Comprobaciones de entradas 1
