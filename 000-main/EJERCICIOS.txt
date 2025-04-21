@@ -6,3 +6,4 @@
 006 - Comprobaciones de entradas 1
 007 - Eventos (keydown, change, etc.)
 008 - PROYECTO 1
+009 - LocalStorage pt. 1

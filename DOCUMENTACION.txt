@@ -109,3 +109,27 @@ select.value
 
 se pondrá rojo, si hay otro green, será green.
 
+AHORA CONTINUAREMOS CON GUARDAR INFORMACIÓN EN EL NAVEGADOR
+Esto lo haremos con LocalStorage
+
+para guardar algo en localStorage es con:
+localStorage.setItem("IDENTIFICADOR", "VALOR_A_GUARDAR");
+
+Para leerlos puede ser con:
+let VARIABLE = localStorage.getItem("IDENTIFICADOR");
+console.log(VARIABLE);
+
+borrar con 
+localStorage.removeItem("IDENTIFICADOR");
+
+y borrarlo todo con 
+localStorage.clear();
+
+Hay que acordarnos que solo guarda Strings.
+Si quisieramos guardar objeto o array, los tendriamos que convertir con:
+
+JSON.stringify()
+
+Y para leerlos:
+
+JSON.parse()
