@@ -75,3 +75,37 @@ Si queremos parar la función y que no siga, usamos:
 return;
 
 Por ejemplo, usamos primero el trim para el valor, luego lo convetimos con .parseInt(VALOR) y para finalizar hacemos un if de si es NaN
+
+Ahora avanzaremos con los diferentes eventos que existen en JS.
+Antes hemos visto el evento "click", pero a parte de ese, hay muchos más, como:
+
+VAR_INPUT.addEventListener("input", function() {});
+
+El input sirve para que cada vez que se escriba algo en el input (caja de texto), cambie automaticamente.
+
+document.addEventListener("keydown", function(evento) {});
+
+El keydown sirve para identificar que tecla ha presionado el usuario, lo podremos saber con:
+
+evento.key
+
+evento es el nombre de la funcion.
+
+Luego está el:
+VAR_DIV.addEventListener("mouseover", function() {});
+
+Que es como hacer un :hover, si está encima, cambia o hace algo, tambien existe el:
+VAR_DIV.addEventListener("mouseout", function() {});
+
+Que es par cuando sale.
+
+Y para finalizar en eventos, existe el:
+VAR_SELECTOR.addEventListener("change", function() {});
+
+Esto lo que hace es que para las etiquetas <select>, si cambias, pasa algo.
+por ejemplo, si el valor de una <option> es red, si pones que el estilo de fondo sea el del select:
+
+select.value
+
+se pondrá rojo, si hay otro green, será green.
+

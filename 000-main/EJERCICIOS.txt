@@ -4,3 +4,4 @@
 004 - Leer entrada de Input
 005 - Cambio de estilo con clases
 006 - Comprobaciones de entradas 1
+007 - Eventos (keydown, change, etc.)
