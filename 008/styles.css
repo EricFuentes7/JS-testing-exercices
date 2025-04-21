@@ -1,0 +1,90 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #F1F1F1;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.padre1{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap:50px;
+}
+.padre1 button{
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: #436FBD;
+    color:white;
+    font-weight: bold;
+    width: 100%;
+}
+.padre1 button:hover{
+    background-color: #3e69b1;
+    cursor: pointer;
+}
+.hijo_nombres{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap:50px;
+    font-weight: bold;
+}
+.hijo_nombres input{
+    border-radius: 4px;
+}
+
+.hidden{
+    display: none !important;
+}
+
+#juego{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap:50px;
+}
+.marcadores{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap:50px;
+    font-weight: bold;
+    
+}
+#puntos_us1, #puntos_us2 {
+    font-size: 70px;
+    margin: 0;
+}
+
+.recuadro{
+    background-color: #e3e3e3;
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    text-align: center;
+}
+.marcadores div button{
+    width: 70px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #dde7de;
+    border-color: #cedbcf;
+    cursor: pointer;
+}
+#restart {
+    height: 50px;
+    border-radius: 5px;
+    background-color: #e7dddd;
+    border-color: #dbcece;
+    cursor: pointer;
+
+}

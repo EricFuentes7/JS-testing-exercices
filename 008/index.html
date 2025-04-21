@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>Proj 1 - Eric</title>
+        </head>
+    <body>
+        <div class="padre1">
+            <div id="a_ocultar">
+                <div class="hijo_nombres">
+                    <div>
+                        <p>Nombre del jugador 1:</p>
+                        <input type="text" id="nombre1" placeholder="Escribe tu nombre">
+                    </div>
+                    <div>
+                        <p>Nombre del jugador 2:</p>
+                        <input type="text" id="nombre2" placeholder="Escribe tu nombre">
+                    </div>
+                </div>
+                <button id="inicio_partida">Comenzar partida</button>
+                <p id="error"></p>
+            </div>
+        </div>
+
+        <div id="juego" class="hidden">
+            <div class="marcadores">
+                <div class="marcador1 recuadro">
+                    <p id="texto_us1">NOMBRE1</p>
+                    <p id="puntos_us1">0</p>
+                    <button id="sumar_p1">+1</button>
+                </div>
+                <div class="marcador2 recuadro">
+                    <p id="texto_us2">NOMBRE2</p>
+                    <p id="puntos_us2">0</p>
+                    <button id="sumar_p2">+1</button>
+                </div>
+                
+            </div>
+            <div style="display: flex; flex-direction: column;">
+                <p style="margin: 10px; font-size: 12px;">El jugador 1 puede puntuar con 'W', y el jugador 2 con '↑'</p>
+                <button id="restart">Reiniciar partida</button>
+            </div>
+            
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
