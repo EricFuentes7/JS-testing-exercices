@@ -8,3 +8,4 @@
 008 - PROYECTO 1
 009 - LocalStorage pt. 1
 010 - Get Value y reiniciar página
+011 - Dialogo con LocalStorage (switch case)
