@@ -133,3 +133,5 @@ JSON.stringify()
 Y para leerlos:
 
 JSON.parse()
+
+-- FALTA DOCUMENTACIÓN 010 Y 011, POR HACER AÚN
