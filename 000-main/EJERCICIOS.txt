@@ -9,3 +9,4 @@
 009 - LocalStorage pt. 1
 010 - Get Value y reiniciar página
 011 - Dialogo con LocalStorage (switch case)
+0120 - Funciones y Arrays pt. 1
