@@ -1,5 +1,6 @@
 let rojo = document.getElementById("rojo");
 let negro = document.getElementById("negro");
+let blue = document.getElementById("blue");
 
 let canva = document.getElementById("canva");
 
@@ -13,11 +14,17 @@ rojo.style.background = rojo.textContent;
 negro.style.color = negro.textContent;
 negro.style.background = negro.textContent;
 
+blue.style.color = blue.textContent;
+blue.style.background = blue.textContent;
+
 rojo.addEventListener("click", function() {
     colorActual = "red";
 });
 negro.addEventListener("click", function() {
     colorActual = "black";
+});
+blue.addEventListener("click", function() {
+    colorActual = "blue";
 });
 
 canva.addEventListener("mousedown", function() {
@@ -47,6 +54,7 @@ canva.addEventListener("mousemove", function(e) {
         punto.style.width = `${mida_final}px`;
         punto.style.height = `${mida_final}px`;
         punto.style.backgroundColor = colorActual;
+        punto.style.pointerEvents = "none";
 
         canva.appendChild(punto);
     }
