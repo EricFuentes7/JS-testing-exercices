@@ -11,3 +11,4 @@
 011 - Dialogo con LocalStorage (switch case)
 012 - Funciones y Arrays pt. 1
 013 - Canva dibujo
+014 - Animación al hacer scroll
