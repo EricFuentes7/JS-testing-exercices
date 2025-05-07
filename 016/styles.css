@@ -1,0 +1,54 @@
+
+:root {
+    background-color: #0a0a0a;
+    overflow: hidden;
+}
+.principal {
+    position: relative;
+    margin: 0;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0a0a0a;
+    overflow: hidden;
+    transition: transform 0.5s;
+
+  }
+  
+  #texto {
+    font-family: "Orbitron", sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    color: #32ff96;
+    z-index: 10;
+    position: relative;
+  }
+
+@keyframes desvanecer {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.desaparecer-animado {
+  animation: desvanecer 0.5s ease-in-out forwards;
+}
+.aparecer-animado {
+  animation: aparecer 0.5s ease-in-out forwards;
+}
