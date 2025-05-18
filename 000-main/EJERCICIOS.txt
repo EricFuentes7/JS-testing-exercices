@@ -14,3 +14,4 @@
 014 - Animación al hacer scroll
 015 - Contar carácteres
 016 - Set Timeout y Efecto máquina escribir
+017 - ToDoList muy simple
